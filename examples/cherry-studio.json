@@ -1,0 +1,15 @@
+{
+  "name": "zemax",
+  "type": "stdio",
+  "command": "uv",
+  "args": [
+    "--directory",
+    "C:\\path\\to\\zemax-mcp",
+    "run",
+    "zemax-mcp",
+    "serve"
+  ],
+  "env": {
+    "ZEMAX_MCP_CONNECTION_MODE": "standalone"
+  }
+}

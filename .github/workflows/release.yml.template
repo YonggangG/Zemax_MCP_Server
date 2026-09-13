@@ -1,0 +1,61 @@
+# Future release workflow template for https://github.com/YonggangG/Zemax_MCP_Server.
+# Rename to release.yml only after configuring a GitHub environment named
+# "release" and reviewing trusted publishing settings.
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing version tag to package
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    environment: release
+
+    steps:
+      - name: Check out requested tag
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.tag }}
+
+      - name: Install uv and Python
+        uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.8.22"
+          python-version: "3.12"
+
+      - name: Install locked dependencies
+        run: uv sync --frozen --all-extras --dev
+
+      - name: Run offline release checks
+        run: |
+          uv run ruff format --check .
+          uv run ruff check .
+          uv run mypy src tests
+          uv run pytest -m "not live_zemax"
+          uv run zemax-mcp report --check
+
+      - name: Build and inspect distributions
+        run: |
+          uv build
+          uv run python scripts/verify_dist_contents.py dist
+          Get-ChildItem dist
+
+      - name: Upload unsigned distributions
+        uses: actions/upload-artifact@v4
+        with:
+          name: zemax-mcp-${{ inputs.tag }}
+          path: dist/*
+          if-no-files-found: error
+
+  # Add GitHub Release and/or PyPI publication jobs later. Keep them separate
+  # from build, require the protected release environment, and grant only the
+  # narrow permissions needed. Public CI and release builds must never install
+  # or upload OpticStudio DLLs, license data, catalogs, or proprietary systems.

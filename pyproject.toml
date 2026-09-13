@@ -1,0 +1,112 @@
+[build-system]
+requires = ["hatchling>=1.27,<1.32"]
+build-backend = "hatchling.build"
+
+[project]
+name = "zemax-mcp"
+version = "0.1.0"
+description = "Windows MCP server for sequential and non-sequential Ansys Zemax OpticStudio automation through ZOS-API"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+license = { file = "LICENSE" }
+authors = [{ name = "Zemax MCP Python contributors" }]
+keywords = ["mcp", "zemax", "opticstudio", "optics", "zos-api"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: Microsoft :: Windows",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+  "mcp>=2.2,<3",
+  "pydantic>=2.12,<3",
+  "pythonnet>=3.1,<4; sys_platform == 'win32'",
+]
+
+[project.optional-dependencies]
+numerical = ["numpy>=2,<3", "scipy>=1.15,<2"]
+images = ["pillow>=11,<13"]
+all = ["numpy>=2,<3", "scipy>=1.15,<2", "pillow>=11,<13"]
+
+[dependency-groups]
+dev = [
+  "build>=1.2,<2",
+  "coverage>=7.6,<8",
+  "mypy>=1.15,<2",
+  "pytest>=8.3,<9",
+  "pytest-anyio>=0.0.0",
+  "pytest-cov>=6,<7",
+  "ruff>=0.11,<1",
+  "twine>=6,<7",
+]
+
+[project.scripts]
+zemax-mcp = "zemax_mcp.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/YonggangG/Zemax_MCP_Server"
+Repository = "https://github.com/YonggangG/Zemax_MCP_Server"
+Issues = "https://github.com/YonggangG/Zemax_MCP_Server/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/zemax_mcp"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "/src",
+  "/tests",
+  "/docs",
+  "/examples",
+  "/scripts",
+  "/.github",
+  "/.gitattributes",
+  "/.gitignore",
+  "/.python-version",
+  "/CHANGELOG.md",
+  "/LICENSE",
+  "/README.md",
+  "/SECURITY.md",
+  "/THIRD_PARTY_NOTICES.md",
+  "/live-test-report.md",
+  "/porting-notes.md",
+  "/pyproject.toml",
+  "/tool-coverage.json",
+  "/uv.lock",
+]
+exclude = [
+  "**/__pycache__",
+  "**/*.pyc",
+  "/dist",
+  "/live-output",
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+mypy_path = "src"
+packages = ["zemax_mcp"]
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-markers"
+testpaths = ["tests"]
+markers = [
+  "live_zemax: requires an installed licensed OpticStudio instance",
+]
+
+[tool.coverage.run]
+source = ["zemax_mcp"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+fail_under = 70

@@ -1,0 +1,5859 @@
+{
+  "capabilities": {
+    "productionHandlerCount": 131,
+    "productionTools": [
+      "zemax_add_configuration_operand",
+      "zemax_add_material_catalog",
+      "zemax_add_operand",
+      "zemax_add_surface",
+      "zemax_analysis_series",
+      "zemax_batch_ray_trace",
+      "zemax_cardinal_points",
+      "zemax_chromatic_focal_shift",
+      "zemax_close_file",
+      "zemax_connect",
+      "zemax_delete_configuration_operand",
+      "zemax_design_lockdown",
+      "zemax_diffraction_encircled_energy",
+      "zemax_disconnect",
+      "zemax_export_analysis",
+      "zemax_export_glass_catalog",
+      "zemax_fft_mtf",
+      "zemax_fft_mtf_vs_field",
+      "zemax_fft_psf",
+      "zemax_field_curvature_distortion",
+      "zemax_filter_glasses",
+      "zemax_geometric_encircled_energy",
+      "zemax_geometric_image_analysis",
+      "zemax_geometric_mtf",
+      "zemax_geometric_mtf_vs_field",
+      "zemax_get_afocal_mode",
+      "zemax_get_apodization",
+      "zemax_get_aspheric_surface",
+      "zemax_get_clear_semi_diameter_margin",
+      "zemax_get_configuration",
+      "zemax_get_configuration_operands",
+      "zemax_get_extra_data",
+      "zemax_get_glass_catalogs",
+      "zemax_get_glasses",
+      "zemax_get_merit_function",
+      "zemax_get_mtf_units",
+      "zemax_get_polarization",
+      "zemax_get_ray_aiming",
+      "zemax_get_surface",
+      "zemax_get_surface_solves",
+      "zemax_get_system",
+      "zemax_get_system_units",
+      "zemax_get_title_notes",
+      "zemax_get_variables",
+      "zemax_global_search",
+      "zemax_hammer",
+      "zemax_huygens_mtf",
+      "zemax_huygens_psf",
+      "zemax_lateral_color",
+      "zemax_lde_insert_surface",
+      "zemax_lde_set_surface",
+      "zemax_lde_summary",
+      "zemax_list_surface_types",
+      "zemax_load_merit_function_file",
+      "zemax_longitudinal_aberration",
+      "zemax_mce_add_config",
+      "zemax_mce_add_operand",
+      "zemax_mce_summary",
+      "zemax_merit_value",
+      "zemax_new_system",
+      "zemax_nsc_add_object",
+      "zemax_nsc_clear_detectors",
+      "zemax_nsc_convert_to_nonsequential",
+      "zemax_nsc_convert_to_sequential",
+      "zemax_nsc_detector_data",
+      "zemax_nsc_detector_pixel",
+      "zemax_nsc_detector_viewer",
+      "zemax_nsc_get_object",
+      "zemax_nsc_get_object_parameter",
+      "zemax_nsc_get_source_spectrum",
+      "zemax_nsc_insert_object",
+      "zemax_nsc_load_detector",
+      "zemax_nsc_polar_detector_data",
+      "zemax_nsc_polar_detector_pixel",
+      "zemax_nsc_ray_trace",
+      "zemax_nsc_remove_object",
+      "zemax_nsc_save_detector",
+      "zemax_nsc_set_object",
+      "zemax_nsc_set_object_parameter",
+      "zemax_nsc_set_source_spectrum",
+      "zemax_nsc_summary",
+      "zemax_opd_fan",
+      "zemax_open_file",
+      "zemax_optimize",
+      "zemax_pop",
+      "zemax_pupil_aberration_fan",
+      "zemax_quick_focus",
+      "zemax_ray_fan",
+      "zemax_ray_trace",
+      "zemax_relative_illumination",
+      "zemax_remove_material_catalog",
+      "zemax_remove_operand",
+      "zemax_remove_surface",
+      "zemax_restart",
+      "zemax_rms_spot",
+      "zemax_run_analysis",
+      "zemax_run_tolerancing",
+      "zemax_save_file",
+      "zemax_save_merit_function_file",
+      "zemax_scale_lens",
+      "zemax_seidel_coefficients",
+      "zemax_set_afocal_mode",
+      "zemax_set_aperture",
+      "zemax_set_apodization",
+      "zemax_set_aspheric_surface",
+      "zemax_set_clear_semi_diameter_margin",
+      "zemax_set_configuration_operand_value",
+      "zemax_set_current_configuration",
+      "zemax_set_extra_data",
+      "zemax_set_fields",
+      "zemax_set_mtf_units",
+      "zemax_set_number_of_configurations",
+      "zemax_set_number_of_fields",
+      "zemax_set_number_of_wavelengths",
+      "zemax_set_polarization",
+      "zemax_set_ray_aiming",
+      "zemax_set_surface",
+      "zemax_set_surface_parameter",
+      "zemax_set_surface_solve",
+      "zemax_set_surface_type",
+      "zemax_set_system_units",
+      "zemax_set_title_notes",
+      "zemax_set_variable",
+      "zemax_set_wavelengths",
+      "zemax_spot_diagram",
+      "zemax_spot_rms",
+      "zemax_status",
+      "zemax_tde_summary",
+      "zemax_tolerance_wizard",
+      "zemax_zrd_read",
+      "zemax_zrd_summary"
+    ],
+    "scaffoldedRemainderCount": 11,
+    "scaffoldedTools": [
+      "zemax_constrained_optimize",
+      "zemax_forbes_merit_function",
+      "zemax_info",
+      "zemax_merit_wizard",
+      "zemax_multistart_optimize",
+      "zemax_multistart_status",
+      "zemax_multistart_stop",
+      "zemax_operand_help",
+      "zemax_optimization_wizard",
+      "zemax_search_operands",
+      "zemax_set_variable_constraints"
+    ],
+    "statuses": {
+      "production": 131,
+      "scaffolded": 11,
+      "unsupported": 1
+    },
+    "unsupportedCount": 1,
+    "unsupportedTools": [
+      "zemax_eval"
+    ]
+  },
+  "categories": {
+    "advanced": 1,
+    "advanced-analysis": 8,
+    "analysis": 21,
+    "configuration": 10,
+    "glass": 6,
+    "lifecycle": 9,
+    "merit": 11,
+    "non-sequential": 23,
+    "optimization": 10,
+    "sequential": 16,
+    "settings": 23,
+    "tolerancing": 3,
+    "xdat": 2
+  },
+  "compatibility": {
+    "capabilityVocabulary": [
+      "production",
+      "scaffolded",
+      "unsupported"
+    ],
+    "clrFreeImport": true,
+    "contractVersion": "1.0",
+    "dispatchContract": "session.dispatch(operation, **arguments)",
+    "evidenceVocabulary": [
+      "live-verified",
+      "offline-only",
+      "none"
+    ],
+    "inputNaming": "camelCase",
+    "mcpApi": "MCPServer",
+    "mcpSdk": ">=2.2,<3",
+    "statusVocabulary": [
+      "scaffolded",
+      "offline-implemented",
+      "live-verified",
+      "unsupported"
+    ],
+    "toolNamePrefix": "zemax_",
+    "upstreams": {
+      "jaruiz-nsc": {
+        "commit": "efc4d441796f5c1d5ae3e31759bbadfe3505b109",
+        "repository": "https://github.com/jaruiz6363/OpticStudioMCPServer"
+      },
+      "webworn": {
+        "commit": "3797d97492723f385988d47f8b183479bc172dd0",
+        "repository": "https://github.com/webworn/zemax-mcp-server"
+      },
+      "zym": {
+        "commit": "8c9e3499f8d35db9a7383f7d2d0089ff92980a0a",
+        "repository": "https://github.com/zym1998year/OpticStudioMCPServer"
+      }
+    }
+  },
+  "evidence": {
+    "liveCoreRepresentativeCount": 34,
+    "liveVerifiedTools": [
+      "zemax_add_material_catalog",
+      "zemax_add_surface",
+      "zemax_close_file",
+      "zemax_connect",
+      "zemax_design_lockdown",
+      "zemax_disconnect",
+      "zemax_get_polarization",
+      "zemax_get_surface",
+      "zemax_get_system",
+      "zemax_get_system_units",
+      "zemax_get_title_notes",
+      "zemax_huygens_mtf",
+      "zemax_new_system",
+      "zemax_nsc_detector_viewer",
+      "zemax_nsc_get_source_spectrum",
+      "zemax_nsc_load_detector",
+      "zemax_nsc_polar_detector_data",
+      "zemax_nsc_polar_detector_pixel",
+      "zemax_nsc_save_detector",
+      "zemax_nsc_set_source_spectrum",
+      "zemax_open_file",
+      "zemax_ray_trace",
+      "zemax_remove_material_catalog",
+      "zemax_restart",
+      "zemax_rms_spot",
+      "zemax_save_file",
+      "zemax_scale_lens",
+      "zemax_set_polarization",
+      "zemax_set_surface",
+      "zemax_set_system_units",
+      "zemax_set_title_notes",
+      "zemax_status",
+      "zemax_zrd_read",
+      "zemax_zrd_summary"
+    ],
+    "records": [
+      {
+        "artifactPath": "live-output/mcp_stdio_core_results.json",
+        "environment": {
+          "client": "MCP Python high-level Client and Cherry Studio-exposed server",
+          "connectionMode": "standalone",
+          "mcpSdk": "2.2.0",
+          "opticStudio": "Ansys Zemax OpticStudio 2025 R1.01",
+          "os": "Windows 11 Pro x64",
+          "python": "3.11.3 x64",
+          "transport": "stdio"
+        },
+        "id": "opticstudio-2025-r1.01-stdio-core-2026-09-12",
+        "reportPath": "live-test-report.md",
+        "testedOn": "2026-09-12",
+        "tools": [
+          "zemax_add_surface",
+          "zemax_connect",
+          "zemax_disconnect",
+          "zemax_get_surface",
+          "zemax_get_system",
+          "zemax_new_system",
+          "zemax_open_file",
+          "zemax_ray_trace",
+          "zemax_restart",
+          "zemax_rms_spot",
+          "zemax_save_file",
+          "zemax_set_surface",
+          "zemax_status"
+        ]
+      },
+      {
+        "artifactPath": "live-output/batch1/mcp_stdio_batch1_results.json",
+        "environment": {
+          "client": "MCP Python high-level Client",
+          "connectionMode": "standalone",
+          "mcpSdk": "2.2.0",
+          "opticStudio": "Ansys Zemax OpticStudio 2025 R1.01",
+          "os": "Windows 11 Pro x64",
+          "python": "3.11.3 x64",
+          "transport": "stdio"
+        },
+        "id": "opticstudio-2025-r1.01-stdio-batch1-2026-09-12",
+        "reportPath": "live-test-report.md",
+        "testedOn": "2026-09-12",
+        "tools": [
+          "zemax_add_material_catalog",
+          "zemax_close_file",
+          "zemax_get_polarization",
+          "zemax_get_system_units",
+          "zemax_get_title_notes",
+          "zemax_remove_material_catalog",
+          "zemax_set_polarization",
+          "zemax_set_system_units",
+          "zemax_set_title_notes"
+        ]
+      },
+      {
+        "artifactPath": "live-output/batch2/mcp_stdio_batch2_results.json",
+        "environment": {
+          "connectionMode": "standalone",
+          "opticStudio": "Ansys Zemax OpticStudio 2025 R1.01",
+          "transport": "stdio"
+        },
+        "id": "opticstudio-2025-r1.01-stdio-batch2-2026-09-12",
+        "reportPath": "live-test-report.md",
+        "testedOn": "2026-09-12",
+        "tools": [
+          "zemax_design_lockdown",
+          "zemax_huygens_mtf",
+          "zemax_scale_lens"
+        ]
+      },
+      {
+        "artifactPath": "live-output/batch3/mcp_stdio_batch3_results.json",
+        "environment": {
+          "connectionMode": "standalone",
+          "opticStudio": "Ansys Zemax OpticStudio 2025 R1.01",
+          "transport": "stdio"
+        },
+        "id": "opticstudio-2025-r1.01-stdio-batch3-2026-09-12",
+        "reportPath": "live-test-report.md",
+        "testedOn": "2026-09-12",
+        "tools": [
+          "zemax_nsc_detector_viewer",
+          "zemax_nsc_get_source_spectrum",
+          "zemax_nsc_load_detector",
+          "zemax_nsc_polar_detector_data",
+          "zemax_nsc_polar_detector_pixel",
+          "zemax_nsc_save_detector",
+          "zemax_nsc_set_source_spectrum"
+        ]
+      },
+      {
+        "artifactPath": "live-output/batch4/mcp_stdio_batch4_results.json",
+        "environment": {
+          "connectionMode": "standalone",
+          "opticStudio": "Ansys Zemax OpticStudio 2025 R1.01",
+          "transport": "stdio"
+        },
+        "id": "opticstudio-2025-r1.01-stdio-batch4-2026-09-12",
+        "reportPath": "live-test-report.md",
+        "testedOn": "2026-09-12",
+        "tools": [
+          "zemax_zrd_read",
+          "zemax_zrd_summary"
+        ]
+      }
+    ],
+    "statuses": {
+      "live-verified": 34,
+      "none": 12,
+      "offline-only": 97
+    }
+  },
+  "implementationStatuses": {
+    "live-verified": 34,
+    "offline-implemented": 97,
+    "scaffolded": 11,
+    "unsupported": 1
+  },
+  "name": "zemax-mcp",
+  "toolCount": 143,
+  "tools": [
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "configuration",
+      "description": "Add an MCE operand.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "insertAt": {
+            "default": 0,
+            "description": "Row; 0 appends",
+            "type": "integer"
+          },
+          "operandType": {
+            "description": "THIC, CURV, CONI, PRAM, MOFF, and so on",
+            "type": "string"
+          },
+          "param1": {
+            "description": "Parameter 1",
+            "type": "integer"
+          },
+          "param2": {
+            "description": "Parameter 2",
+            "type": "integer"
+          },
+          "param3": {
+            "description": "Parameter 3",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "operandType"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_add_configuration_operand",
+      "operation": "add_configuration_operand",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "glass",
+      "description": "Add a material catalog to the current optical system.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch1-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "catalogName": {
+            "description": "Material catalog name without the .agf extension",
+            "type": "string"
+          }
+        },
+        "required": [
+          "catalogName"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_add_material_catalog",
+      "operation": "add_material_catalog",
+      "provenance": [
+        "jaruiz-nsc@efc4d441796f5c1d5ae3e31759bbadfe3505b109"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "merit",
+      "description": "Add an optimization operand to the merit function.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "data1": {
+            "description": "Data parameter 1",
+            "type": "number"
+          },
+          "data2": {
+            "description": "Data parameter 2",
+            "type": "number"
+          },
+          "data3": {
+            "description": "Data parameter 3",
+            "type": "number"
+          },
+          "data4": {
+            "description": "Data parameter 4",
+            "type": "number"
+          },
+          "data5": {
+            "description": "Data parameter 5",
+            "type": "number"
+          },
+          "data6": {
+            "description": "Data parameter 6",
+            "type": "number"
+          },
+          "insertAt": {
+            "default": 0,
+            "description": "Row; 0 appends",
+            "type": "integer"
+          },
+          "int1": {
+            "description": "Integer parameter 1",
+            "type": "integer"
+          },
+          "int2": {
+            "description": "Integer parameter 2",
+            "type": "integer"
+          },
+          "operandType": {
+            "description": "Operand mnemonic such as EFFL, MTFT, or RSCE",
+            "type": "string"
+          },
+          "target": {
+            "default": 0,
+            "description": "Target value",
+            "type": "number"
+          },
+          "weight": {
+            "default": 1,
+            "description": "Weight",
+            "type": "number"
+          }
+        },
+        "required": [
+          "operandType"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_add_operand",
+      "operation": "add_operand",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "sequential",
+      "description": "Insert a new sequential surface.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-core-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "comment": {
+            "default": "",
+            "description": "Surface comment",
+            "type": "string"
+          },
+          "insertAt": {
+            "default": 0,
+            "description": "Position; 0 appends before image",
+            "type": "integer"
+          },
+          "material": {
+            "default": "",
+            "description": "Glass name; empty means air",
+            "type": "string"
+          },
+          "radius": {
+            "default": 0,
+            "description": "Radius; 0 is planar",
+            "type": "number"
+          },
+          "thickness": {
+            "default": 0,
+            "description": "Thickness to the next surface",
+            "type": "number"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_add_surface",
+      "operation": "add_surface",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a",
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "advanced-analysis",
+      "description": "Run an arbitrary series analysis and return decimated curves.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "analysisType": {
+            "description": "ZOSAPI AnalysisIDM member",
+            "type": "string"
+          },
+          "maxPoints": {
+            "default": 40,
+            "description": "Approximate max points per curve",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "analysisType"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_analysis_series",
+      "operation": "analysis_series",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Trace a batch of normalized sequential rays.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "rayType": {
+            "default": "Real",
+            "description": "Real or Paraxial",
+            "type": "string"
+          },
+          "rays": {
+            "description": "[Hx,Hy,Px,Py] rays",
+            "items": {
+              "description": "Normalized ray",
+              "items": {
+                "type": "number"
+              },
+              "type": "array"
+            },
+            "type": "array"
+          },
+          "toSurface": {
+            "default": -1,
+            "description": "-1 means image",
+            "type": "integer"
+          },
+          "wavelength": {
+            "default": 1,
+            "description": "Wavelength number",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "rays"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_batch_ray_trace",
+      "operation": "batch_ray_trace",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate focal lengths, principal planes, and other cardinal points.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "wavelength": {
+            "default": 1,
+            "description": "Wavelength number",
+            "type": "integer"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_cardinal_points",
+      "operation": "cardinal_points",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate longitudinal chromatic focal shift versus wavelength.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_chromatic_focal_shift",
+      "operation": "chromatic_focal_shift",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "lifecycle",
+      "description": "Close the current optical system while retaining the application connection.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch1-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "save": {
+            "description": "Save the current system if needed before closing",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "save"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_close_file",
+      "operation": "close_file",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "lifecycle",
+      "description": "Connect to OpticStudio in standalone or interactive-extension mode.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-core-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "instanceId": {
+            "default": 0,
+            "description": "Interactive Extension instance ID",
+            "type": "integer"
+          },
+          "mode": {
+            "default": "standalone",
+            "description": "Connection mode",
+            "enum": [
+              "standalone",
+              "extension"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_connect",
+      "operation": "connect",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a",
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "scaffolded",
+      "category": "optimization",
+      "description": "Run the custom bound-constrained Levenberg-Marquardt optimizer.",
+      "evidence": [],
+      "evidenceStatus": "none",
+      "implementationStatus": "scaffolded",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "delta": {
+            "default": 1e-07,
+            "description": "Finite-difference step",
+            "type": "number"
+          },
+          "initialMu": {
+            "default": 0.001,
+            "description": "Initial damping",
+            "type": "number"
+          },
+          "maxIterations": {
+            "default": 200,
+            "description": "Maximum iterations",
+            "type": "integer"
+          },
+          "maxRestarts": {
+            "default": 2,
+            "description": "Fresh-Jacobian restarts",
+            "type": "integer"
+          },
+          "useBroydenUpdate": {
+            "default": true,
+            "description": "Use rank-1 Jacobian updates",
+            "type": "boolean"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_constrained_optimize",
+      "operation": "constrained_optimize",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ],
+      "unsupportedReason": "No existing pure bound-constrained optimizer service is present in this codebase, and the installed ZOS-API exposes only native local/global/Hammer tools. A numerical optimizer was not invented without a verified variable-vector and rollback contract."
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "configuration",
+      "description": "Delete an MCE operand row.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "row": {
+            "description": "One-based row",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "row"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_delete_configuration_operand",
+      "operation": "delete_configuration_operand",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Apply destructive Design Lockdown to an owned disposable sequential system.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch2-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirmDestructive": {
+            "description": "Explicitly confirm destructive changes",
+            "type": "boolean"
+          },
+          "convertSDToMaxApertures": {
+            "default": false,
+            "description": "Convert semi-diameters to maximum apertures",
+            "type": "boolean"
+          },
+          "decimalPrecision": {
+            "default": 3,
+            "description": "Decimal precision 0-15",
+            "type": "integer"
+          },
+          "excludePickups": {
+            "default": false,
+            "description": "Preserve eligible pickups",
+            "type": "boolean"
+          },
+          "fixModelGlasses": {
+            "default": false,
+            "description": "Replace model glasses",
+            "type": "boolean"
+          },
+          "timeoutSeconds": {
+            "default": 0,
+            "description": "Bounded timeout in seconds",
+            "type": "number"
+          },
+          "usePrecisionRounding": {
+            "default": false,
+            "description": "Round prescription values",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "confirmDestructive"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_design_lockdown",
+      "operation": "design_lockdown",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate FFT diffraction encircled energy versus radius.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "sampling": {
+            "default": 3,
+            "description": "Sampling level 1-6",
+            "type": "integer"
+          },
+          "useDashes": {
+            "default": false,
+            "description": "Use dashes reference",
+            "type": "boolean"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_diffraction_encircled_energy",
+      "operation": "diffraction_encircled_energy",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "lifecycle",
+      "description": "Disconnect cleanly and close an owned OpticStudio application.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-core-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "save": {
+            "default": false,
+            "description": "Save before disconnecting",
+            "type": "boolean"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_disconnect",
+      "operation": "disconnect",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a",
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "unsupported",
+      "category": "advanced",
+      "description": "Advanced backend-defined diagnostic/evaluation escape hatch; disabled unless explicitly allowed.",
+      "evidence": [],
+      "evidenceStatus": "none",
+      "implementationStatus": "unsupported",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "code": {
+            "description": "Backend-specific expression or statement",
+            "type": "string"
+          }
+        },
+        "required": [
+          "code"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_eval",
+      "operation": "eval",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ],
+      "unsupportedReason": "Arbitrary backend evaluation is intentionally unsupported; the production backend only exposes explicit, reviewed ZOS-API operations."
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "advanced-analysis",
+      "description": "Export an analysis result as text, bitmap, or structured data.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "analysisType": {
+            "description": "Analysis identifier",
+            "type": "string"
+          },
+          "filePath": {
+            "description": "Destination path",
+            "type": "string"
+          },
+          "format": {
+            "default": "text",
+            "description": "text, bmp, json, or csv",
+            "type": "string"
+          }
+        },
+        "required": [
+          "analysisType",
+          "filePath"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_export_analysis",
+      "operation": "export_analysis",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "glass",
+      "description": "Export filtered glasses to a new AGF catalog.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "catalogName": {
+            "description": "New catalog name without .agf",
+            "type": "string"
+          },
+          "distanceRadius": {
+            "description": "Maximum distance",
+            "type": "number"
+          },
+          "dpgfMax": {
+            "description": "Maximum dPgF",
+            "type": "number"
+          },
+          "dpgfMin": {
+            "description": "Minimum dPgF",
+            "type": "number"
+          },
+          "dpgfTarget": {
+            "description": "Target dPgF",
+            "type": "number"
+          },
+          "maxCost": {
+            "description": "Maximum cost",
+            "type": "number"
+          },
+          "maxMeltFrequency": {
+            "description": "Maximum melt frequency",
+            "type": "integer"
+          },
+          "maxWavelengthCoverage": {
+            "description": "Maximum wavelength coverage",
+            "type": "number"
+          },
+          "minWavelengthCoverage": {
+            "description": "Minimum wavelength coverage",
+            "type": "number"
+          },
+          "ndMax": {
+            "description": "Maximum Nd",
+            "type": "number"
+          },
+          "ndMin": {
+            "description": "Minimum Nd",
+            "type": "number"
+          },
+          "ndTarget": {
+            "description": "Target Nd",
+            "type": "number"
+          },
+          "outputDirectory": {
+            "description": "Explicit caller-owned output directory outside installed Glasscat directories",
+            "type": "string"
+          },
+          "overwrite": {
+            "default": false,
+            "description": "Overwrite existing",
+            "type": "boolean"
+          },
+          "preferredOnly": {
+            "description": "Only preferred glasses",
+            "type": "boolean"
+          },
+          "sourceCatalogs": {
+            "description": "Comma-separated source catalogs",
+            "type": "string"
+          },
+          "tceMax": {
+            "description": "Maximum TCE",
+            "type": "number"
+          },
+          "tceMin": {
+            "description": "Minimum TCE",
+            "type": "number"
+          },
+          "vdMax": {
+            "description": "Maximum Vd",
+            "type": "number"
+          },
+          "vdMin": {
+            "description": "Minimum Vd",
+            "type": "number"
+          },
+          "vdTarget": {
+            "description": "Target Vd",
+            "type": "number"
+          },
+          "wa": {
+            "description": "Vd weight",
+            "type": "number"
+          },
+          "wn": {
+            "description": "Nd weight",
+            "type": "number"
+          },
+          "wp": {
+            "description": "dPgF weight",
+            "type": "number"
+          }
+        },
+        "required": [
+          "catalogName",
+          "sourceCatalogs",
+          "outputDirectory"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_export_glass_catalog",
+      "operation": "export_glass_catalog",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate diffraction FFT MTF curves for all fields.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "frequency": {
+            "description": "Maximum cycles/mm",
+            "type": "number"
+          },
+          "sampling": {
+            "default": 3,
+            "description": "Sampling level 1-6",
+            "type": "integer"
+          },
+          "wavelength": {
+            "default": 0,
+            "description": "0 for polychromatic",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "frequency"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_fft_mtf",
+      "operation": "fft_mtf",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate polychromatic FFT MTF versus Y field for up to six frequencies.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "frequency1": {
+            "default": 0,
+            "description": "Spatial frequency 1; 0 skips",
+            "type": "number"
+          },
+          "frequency2": {
+            "default": 0,
+            "description": "Spatial frequency 2; 0 skips",
+            "type": "number"
+          },
+          "frequency3": {
+            "default": 0,
+            "description": "Spatial frequency 3; 0 skips",
+            "type": "number"
+          },
+          "frequency4": {
+            "default": 0,
+            "description": "Spatial frequency 4; 0 skips",
+            "type": "number"
+          },
+          "frequency5": {
+            "default": 0,
+            "description": "Spatial frequency 5; 0 skips",
+            "type": "number"
+          },
+          "frequency6": {
+            "default": 0,
+            "description": "Spatial frequency 6; 0 skips",
+            "type": "number"
+          },
+          "sampling": {
+            "default": 3,
+            "description": "Sampling level 1-6",
+            "type": "integer"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_fft_mtf_vs_field",
+      "operation": "fft_mtf_vs_field",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "advanced-analysis",
+      "description": "Calculate a diffraction FFT point-spread function.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "field": {
+            "default": 1,
+            "description": "One-based field",
+            "type": "integer"
+          },
+          "imageSampling": {
+            "default": 3,
+            "description": "Image sampling level",
+            "type": "integer"
+          },
+          "sampling": {
+            "default": 3,
+            "description": "Sampling level",
+            "type": "integer"
+          },
+          "wavelength": {
+            "default": 0,
+            "description": "0 for polychromatic",
+            "type": "integer"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_fft_psf",
+      "operation": "fft_psf",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate tangential/sagittal field curvature and distortion.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "distortionType": {
+            "default": "f_tan_theta",
+            "description": "f_tan_theta or f_theta",
+            "type": "string"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_field_curvature_distortion",
+      "operation": "field_curvature_distortion",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "glass",
+      "description": "Filter glasses by preferred state, optical coordinates, cost, TCE, coverage, and melt frequency.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "catalogs": {
+            "description": "Comma-separated catalog names",
+            "type": "string"
+          },
+          "distanceRadius": {
+            "description": "Max weighted optical distance",
+            "type": "number"
+          },
+          "dpgfMax": {
+            "description": "Maximum dPgF",
+            "type": "number"
+          },
+          "dpgfMin": {
+            "description": "Minimum dPgF",
+            "type": "number"
+          },
+          "dpgfTarget": {
+            "default": 0,
+            "description": "Target dPgF",
+            "type": "number"
+          },
+          "maxCost": {
+            "description": "Max BK7-relative cost",
+            "type": "number"
+          },
+          "maxMeltFrequency": {
+            "description": "Maximum melt frequency 1-5",
+            "type": "integer"
+          },
+          "maxWavelengthCoverage": {
+            "description": "Maximum wavelength coverage in um",
+            "type": "number"
+          },
+          "minWavelengthCoverage": {
+            "description": "Minimum wavelength coverage in um",
+            "type": "number"
+          },
+          "ndMax": {
+            "description": "Maximum Nd",
+            "type": "number"
+          },
+          "ndMin": {
+            "description": "Minimum Nd",
+            "type": "number"
+          },
+          "ndTarget": {
+            "default": 1.5168,
+            "description": "Target Nd",
+            "type": "number"
+          },
+          "preferredOnly": {
+            "description": "Only preferred glasses",
+            "type": "boolean"
+          },
+          "tceMax": {
+            "description": "Maximum TCE",
+            "type": "number"
+          },
+          "tceMin": {
+            "description": "Minimum TCE",
+            "type": "number"
+          },
+          "vdMax": {
+            "description": "Maximum Vd",
+            "type": "number"
+          },
+          "vdMin": {
+            "description": "Minimum Vd",
+            "type": "number"
+          },
+          "vdTarget": {
+            "default": 64.17,
+            "description": "Target Vd",
+            "type": "number"
+          },
+          "wa": {
+            "default": 0.0001,
+            "description": "Vd weight",
+            "type": "number"
+          },
+          "wn": {
+            "default": 1,
+            "description": "Nd weight",
+            "type": "number"
+          },
+          "wp": {
+            "default": 100,
+            "description": "dPgF weight",
+            "type": "number"
+          }
+        },
+        "required": [
+          "catalogs"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_filter_glasses",
+      "operation": "filter_glasses",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "scaffolded",
+      "category": "merit",
+      "description": "Build explicit OPD operands using Forbes 1988 Gaussian quadrature sampling.",
+      "evidence": [],
+      "evidenceStatus": "none",
+      "implementationStatus": "scaffolded",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "addComments": {
+            "default": true,
+            "description": "Add BLNK comments",
+            "type": "boolean"
+          },
+          "arms": {
+            "default": 6,
+            "description": "Angular arms",
+            "type": "integer"
+          },
+          "assumeSymmetry": {
+            "default": true,
+            "description": "Use Y symmetry",
+            "type": "boolean"
+          },
+          "clearExisting": {
+            "default": true,
+            "description": "Clear existing operands",
+            "type": "boolean"
+          },
+          "includeAllConfigurations": {
+            "default": true,
+            "description": "Include all configurations",
+            "type": "boolean"
+          },
+          "includeAllWavelengths": {
+            "default": true,
+            "description": "Include all wavelengths",
+            "type": "boolean"
+          },
+          "operandType": {
+            "default": "OPDX",
+            "description": "OPDX, OPDC, or OPDM",
+            "type": "string"
+          },
+          "rings": {
+            "default": 3,
+            "description": "Radial rings",
+            "type": "integer"
+          },
+          "useRadauForAxial": {
+            "default": true,
+            "description": "Use Radau sampling for axial fields",
+            "type": "boolean"
+          },
+          "wavelength": {
+            "default": 0,
+            "description": "Specific wavelength; 0 polychromatic",
+            "type": "integer"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_forbes_merit_function",
+      "operation": "forbes_merit_function",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate ray-based geometric encircled energy versus radius.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "sampling": {
+            "default": 3,
+            "description": "Sampling level 1-6",
+            "type": "integer"
+          },
+          "scaleByDiffractionLimit": {
+            "default": false,
+            "description": "Scale by diffraction limit",
+            "type": "boolean"
+          },
+          "scatterRays": {
+            "default": false,
+            "description": "Use scatter rays",
+            "type": "boolean"
+          },
+          "showDiffractionLimit": {
+            "default": true,
+            "description": "Include diffraction limit",
+            "type": "boolean"
+          },
+          "useDashes": {
+            "default": false,
+            "description": "Use dashes reference",
+            "type": "boolean"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_geometric_encircled_energy",
+      "operation": "geometric_encircled_energy",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "advanced-analysis",
+      "description": "Run geometric image analysis and return/export the image grid.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "field": {
+            "default": 1,
+            "description": "One-based field",
+            "type": "integer"
+          },
+          "filePath": {
+            "description": "Optional export path",
+            "type": "string"
+          },
+          "raysX1000": {
+            "default": 100,
+            "description": "Ray count in thousands",
+            "type": "integer"
+          },
+          "showAs": {
+            "description": "Display mode",
+            "type": "string"
+          },
+          "wavelength": {
+            "default": 0,
+            "description": "0 for polychromatic",
+            "type": "integer"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_geometric_image_analysis",
+      "operation": "geometric_image_analysis",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate geometric MTF curves for all fields.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "maxFrequency": {
+            "default": 100,
+            "description": "Maximum cycles/mm",
+            "type": "number"
+          },
+          "multiplyByDiffractionLimit": {
+            "default": false,
+            "description": "Multiply by diffraction limit",
+            "type": "boolean"
+          },
+          "wavelength": {
+            "default": 0,
+            "description": "0 for polychromatic",
+            "type": "integer"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_geometric_mtf",
+      "operation": "geometric_mtf",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate geometric MTF versus field for up to six frequencies.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "frequency1": {
+            "default": 0,
+            "description": "Spatial frequency 1; 0 skips",
+            "type": "number"
+          },
+          "frequency2": {
+            "default": 0,
+            "description": "Spatial frequency 2; 0 skips",
+            "type": "number"
+          },
+          "frequency3": {
+            "default": 0,
+            "description": "Spatial frequency 3; 0 skips",
+            "type": "number"
+          },
+          "frequency4": {
+            "default": 0,
+            "description": "Spatial frequency 4; 0 skips",
+            "type": "number"
+          },
+          "frequency5": {
+            "default": 0,
+            "description": "Spatial frequency 5; 0 skips",
+            "type": "number"
+          },
+          "frequency6": {
+            "default": 0,
+            "description": "Spatial frequency 6; 0 skips",
+            "type": "number"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_geometric_mtf_vs_field",
+      "operation": "geometric_mtf_vs_field",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Get the sequential afocal-mode setting.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_afocal_mode",
+      "operation": "get_afocal_mode",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Get aperture apodization settings.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_apodization",
+      "operation": "get_apodization",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "sequential",
+      "description": "Get Even Asphere conic and alpha1-alpha8 coefficients.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "surfaceNumber": {
+            "description": "Surface number",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "surfaceNumber"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_aspheric_surface",
+      "operation": "get_aspheric_surface",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Get the clear semi-diameter margin.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_clear_semi_diameter_margin",
+      "operation": "get_clear_semi_diameter_margin",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "configuration",
+      "description": "Get number of configurations and current configuration.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_configuration",
+      "operation": "get_configuration",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "configuration",
+      "description": "Get MCE operands and values across configurations.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "endRow": {
+            "default": 0,
+            "description": "Last row; 0 means all",
+            "type": "integer"
+          },
+          "startRow": {
+            "default": 1,
+            "description": "First row",
+            "type": "integer"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_configuration_operands",
+      "operation": "get_configuration_operands",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "xdat",
+      "description": "Read surface Extra Data (XDAT) values.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "endParameter": {
+            "default": 0,
+            "description": "Last XDAT parameter; 0 means all",
+            "type": "integer"
+          },
+          "startParameter": {
+            "default": 1,
+            "description": "First XDAT parameter",
+            "type": "integer"
+          },
+          "surfaceNumber": {
+            "description": "Surface number",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "surfaceNumber"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_extra_data",
+      "operation": "get_extra_data",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "glass",
+      "description": "List glass catalog names installed in Glasscat.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_glass_catalogs",
+      "operation": "get_glass_catalogs",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "glass",
+      "description": "List glasses and optical/manufacturing properties from catalogs.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "catalogs": {
+            "description": "Comma-separated catalog names",
+            "type": "string"
+          }
+        },
+        "required": [
+          "catalogs"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_glasses",
+      "operation": "get_glasses",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "merit",
+      "description": "Retrieve merit-function operands and optional calculated values.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "endRow": {
+            "default": 0,
+            "description": "Last row; 0 means all",
+            "type": "integer"
+          },
+          "includeValues": {
+            "default": true,
+            "description": "Calculate operand values",
+            "type": "boolean"
+          },
+          "startRow": {
+            "default": 1,
+            "description": "First row",
+            "type": "integer"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_merit_function",
+      "operation": "get_merit_function",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Get MTF spatial-frequency units.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_mtf_units",
+      "operation": "get_mtf_units",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Get the current optical system's default input polarization settings.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch1-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_polarization",
+      "operation": "get_polarization",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Get the ray-aiming setting.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_ray_aiming",
+      "operation": "get_ray_aiming",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "sequential",
+      "description": "Get detailed data for a sequential surface.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-core-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "surfaceNumber": {
+            "description": "Surface number; 0 is object and -1 is image",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "surfaceNumber"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_surface",
+      "operation": "get_surface",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "sequential",
+      "description": "Get solve, pickup, and variable states for all surface properties.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "surfaceNumber": {
+            "description": "Surface number",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "surfaceNumber"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_surface_solves",
+      "operation": "get_surface_solves",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "sequential",
+      "description": "Get optical-system data, optionally including surfaces, fields, and wavelengths.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-core-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "includeFields": {
+            "default": true,
+            "description": "Include field definitions",
+            "type": "boolean"
+          },
+          "includeSurfaces": {
+            "default": true,
+            "description": "Include surface details",
+            "type": "boolean"
+          },
+          "includeWavelengths": {
+            "default": true,
+            "description": "Include wavelength definitions",
+            "type": "boolean"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_system",
+      "operation": "get_system",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Get the current optical system's lens units.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch1-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_system_units",
+      "operation": "get_system_units",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Get the current optical system's title, notes, and author.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch1-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_title_notes",
+      "operation": "get_title_notes",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "optimization",
+      "description": "Scan the system for optimization variables and constraint states.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_get_variables",
+      "operation": "get_variables",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "optimization",
+      "description": "Run native global optimization with optional glass substitution.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "algorithm": {
+            "default": "DLS",
+            "description": "DLS or Orthogonal",
+            "type": "string"
+          },
+          "cores": {
+            "default": 0,
+            "description": "0 uses all cores",
+            "type": "integer"
+          },
+          "solutionsToSave": {
+            "default": 20,
+            "description": "10, 20, 50, or 100",
+            "type": "integer"
+          },
+          "timeoutSeconds": {
+            "default": 0,
+            "description": "0 means no time limit",
+            "type": "number"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_global_search",
+      "operation": "global_search",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "optimization",
+      "description": "Run native Hammer optimization.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "algorithm": {
+            "default": "DLS",
+            "description": "DLS or Orthogonal",
+            "type": "string"
+          },
+          "automatic": {
+            "default": true,
+            "description": "Use automatic mode",
+            "type": "boolean"
+          },
+          "cores": {
+            "default": 0,
+            "description": "0 uses all cores",
+            "type": "integer"
+          },
+          "targetRuntimeMinutes": {
+            "default": 1,
+            "description": "Automatic target runtime",
+            "type": "number"
+          },
+          "timeoutSeconds": {
+            "default": 120,
+            "description": "Hard timeout",
+            "type": "number"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_hammer",
+      "operation": "hammer",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "advanced-analysis",
+      "description": "Calculate Huygens MTF by direct pupil integration.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch2-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "configuration": {
+            "default": 1,
+            "description": "One-based configuration",
+            "type": "integer"
+          },
+          "field": {
+            "default": 1,
+            "description": "Zero for all or one-based field",
+            "type": "integer"
+          },
+          "imageDelta": {
+            "default": 0,
+            "description": "Image spacing in micrometers; zero uses default",
+            "type": "number"
+          },
+          "imageSampling": {
+            "default": 3,
+            "description": "Image sampling level 1-6",
+            "type": "integer"
+          },
+          "maximumFrequency": {
+            "description": "Maximum spatial frequency",
+            "type": "number"
+          },
+          "pupilSampling": {
+            "default": 3,
+            "description": "Pupil sampling level 1-6",
+            "type": "integer"
+          },
+          "useDashes": {
+            "default": false,
+            "description": "Use dashed reference",
+            "type": "boolean"
+          },
+          "usePolarization": {
+            "default": false,
+            "description": "Use polarization",
+            "type": "boolean"
+          },
+          "wavelength": {
+            "default": 0,
+            "description": "Zero for polychromatic or one-based wavelength",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "maximumFrequency"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_huygens_mtf",
+      "operation": "huygens_mtf",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "advanced-analysis",
+      "description": "Calculate a Huygens point-spread function.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "field": {
+            "default": 1,
+            "description": "One-based field",
+            "type": "integer"
+          },
+          "imageSampling": {
+            "default": 3,
+            "description": "Image sampling",
+            "type": "integer"
+          },
+          "pupilSampling": {
+            "default": 3,
+            "description": "Pupil sampling",
+            "type": "integer"
+          },
+          "wavelength": {
+            "default": 0,
+            "description": "0 for polychromatic",
+            "type": "integer"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_huygens_psf",
+      "operation": "huygens_psf",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "scaffolded",
+      "category": "lifecycle",
+      "description": "Report the current session and optical-system information.",
+      "evidence": [],
+      "evidenceStatus": "none",
+      "implementationStatus": "scaffolded",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_info",
+      "operation": "info",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate lateral color versus field.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_lateral_color",
+      "operation": "lateral_color",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "sequential",
+      "description": "Insert a surface at a zero-based LDE position.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "position": {
+            "description": "Zero-based insertion position",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "position"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_lde_insert_surface",
+      "operation": "lde_insert_surface",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "sequential",
+      "description": "Legacy wrapper for editing common surface properties.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "comment": {
+            "description": "Comment",
+            "type": "string"
+          },
+          "material": {
+            "description": "Material",
+            "type": "string"
+          },
+          "radius": {
+            "description": "Radius",
+            "type": "number"
+          },
+          "semiDiameter": {
+            "description": "Semi-diameter",
+            "type": "number"
+          },
+          "surface": {
+            "description": "Zero-based surface",
+            "type": "integer"
+          },
+          "thickness": {
+            "description": "Thickness",
+            "type": "number"
+          }
+        },
+        "required": [
+          "surface"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_lde_set_surface",
+      "operation": "lde_set_surface",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "sequential",
+      "description": "Return a compact sequential Lens Data Editor prescription.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_lde_summary",
+      "operation": "lde_summary",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "sequential",
+      "description": "List surface types supported by the installed OpticStudio build.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_list_surface_types",
+      "operation": "list_surface_types",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "merit",
+      "description": "Load a .MF merit-function file.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "filePath": {
+            "description": "Absolute .MF file path",
+            "type": "string"
+          }
+        },
+        "required": [
+          "filePath"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_load_merit_function_file",
+      "operation": "load_merit_function_file",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate longitudinal aberration versus pupil position.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_longitudinal_aberration",
+      "operation": "longitudinal_aberration",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "configuration",
+      "description": "Legacy wrapper to append a configuration.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "withPickups": {
+            "default": false,
+            "description": "Link new cells with pickups",
+            "type": "boolean"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_mce_add_config",
+      "operation": "mce_add_config",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "configuration",
+      "description": "Legacy wrapper to append an MCE operand.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "operandType": {
+            "description": "MCE operand type",
+            "type": "string"
+          },
+          "param1": {
+            "default": 0,
+            "description": "Primary parameter",
+            "type": "integer"
+          },
+          "values": {
+            "description": "Per-configuration values",
+            "items": {
+              "type": "number"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "operandType"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_mce_add_operand",
+      "operation": "mce_add_operand",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "configuration",
+      "description": "Legacy compact MCE summary.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_mce_summary",
+      "operation": "mce_summary",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "merit",
+      "description": "Calculate the current merit-function value.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_merit_value",
+      "operation": "merit_value",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "scaffolded",
+      "category": "merit",
+      "description": "Legacy merit-function wizard wrapper.",
+      "evidence": [],
+      "evidenceStatus": "none",
+      "implementationStatus": "scaffolded",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "optimizationGoal": {
+            "default": "RMS_Spot",
+            "description": "Informational goal",
+            "type": "string"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_merit_wizard",
+      "operation": "merit_wizard",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "scaffolded",
+      "category": "optimization",
+      "description": "Start non-blocking randomized multistart constrained optimization.",
+      "evidence": [],
+      "evidenceStatus": "none",
+      "implementationStatus": "scaffolded",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "constrainedOnly": {
+            "default": false,
+            "description": "Randomize only constrained variables",
+            "type": "boolean"
+          },
+          "delta": {
+            "default": 1e-07,
+            "description": "Finite-difference step",
+            "type": "number"
+          },
+          "glassSubstitutionProbability": {
+            "default": 0.5,
+            "description": "Per-trial probability",
+            "type": "number"
+          },
+          "initialLmIterations": {
+            "default": 200,
+            "description": "Initial LM iterations",
+            "type": "integer"
+          },
+          "initialMu": {
+            "default": 0.001,
+            "description": "Initial damping",
+            "type": "number"
+          },
+          "lmIterationsPerTrial": {
+            "default": 50,
+            "description": "LM iterations per trial",
+            "type": "integer"
+          },
+          "maxRestarts": {
+            "default": 0,
+            "description": "Initial LM restarts",
+            "type": "integer"
+          },
+          "maxTrials": {
+            "default": 100,
+            "description": "Random trials",
+            "type": "integer"
+          },
+          "progressInterval": {
+            "default": 0,
+            "description": "Log every N trials",
+            "type": "integer"
+          },
+          "randomizationPercent": {
+            "default": 5,
+            "description": "Percent of variable bound range",
+            "type": "number"
+          },
+          "resume": {
+            "default": false,
+            "description": "Resume prior run",
+            "type": "boolean"
+          },
+          "useBroydenUpdate": {
+            "default": true,
+            "description": "Use Broyden updates",
+            "type": "boolean"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_multistart_optimize",
+      "operation": "multistart_optimize",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ],
+      "unsupportedReason": "No existing pure multistart service is present; safely implementing it requires the same verified variable-vector, hard-bound, cancellation, and rollback contracts as the constrained optimizer."
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "scaffolded",
+      "category": "optimization",
+      "description": "Poll multistart progress without blocking.",
+      "evidence": [],
+      "evidenceStatus": "none",
+      "implementationStatus": "scaffolded",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_multistart_status",
+      "operation": "multistart_status",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ],
+      "unsupportedReason": "Multistart execution is intentionally not started, so there is no truthful background job state to report."
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "scaffolded",
+      "category": "optimization",
+      "description": "Request graceful stop of multistart optimization.",
+      "evidence": [],
+      "evidenceStatus": "none",
+      "implementationStatus": "scaffolded",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_multistart_stop",
+      "operation": "multistart_stop",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ],
+      "unsupportedReason": "Multistart execution is intentionally not started, so there is no background job to stop."
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "lifecycle",
+      "description": "Create a blank sequential or non-sequential optical system.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-core-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "sequential": {
+            "default": true,
+            "description": "Create a sequential system",
+            "type": "boolean"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_new_system",
+      "operation": "new_system",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a",
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Append a non-sequential object.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "comment": {
+            "description": "Object comment",
+            "type": "string"
+          },
+          "objectType": {
+            "description": "Optional Zemax object type",
+            "type": "string"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_add_object",
+      "operation": "nsc_add_object",
+      "provenance": [
+        "jaruiz-nsc@efc4d441796f5c1d5ae3e31759bbadfe3505b109"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Clear all or one non-sequential detector.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "objectNumber": {
+            "default": 0,
+            "description": "0 clears all",
+            "type": "integer"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_clear_detectors",
+      "operation": "nsc_clear_detectors",
+      "provenance": [
+        "jaruiz-nsc@efc4d441796f5c1d5ae3e31759bbadfe3505b109"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Convert or make the current optical system non-sequential.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_convert_to_nonsequential",
+      "operation": "nsc_convert_to_nonsequential",
+      "provenance": [
+        "jaruiz-nsc@efc4d441796f5c1d5ae3e31759bbadfe3505b109"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Convert an eligible NSC group to sequential mode.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "firstObject": {
+            "description": "First object",
+            "type": "integer"
+          },
+          "lastObject": {
+            "description": "Last object",
+            "type": "integer"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_convert_to_sequential",
+      "operation": "nsc_convert_to_sequential",
+      "provenance": [
+        "jaruiz-nsc@efc4d441796f5c1d5ae3e31759bbadfe3505b109"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Read full detector data and aggregate statistics.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "dataType": {
+            "default": 1,
+            "description": "1 incoherent flux, 2 coherent power, 3 coherent phase",
+            "type": "integer"
+          },
+          "maxValues": {
+            "default": 4096,
+            "description": "Maximum detector values returned; 0 returns statistics only",
+            "type": "integer"
+          },
+          "objectNumber": {
+            "description": "Detector object number",
+            "type": "integer"
+          },
+          "quantity": {
+            "description": "Optional exact detector quantity",
+            "enum": [
+              "incoherentFlux",
+              "coherentReal",
+              "coherentImaginary",
+              "coherentAmplitude",
+              "coherentPower",
+              "coherentPhaseDegrees"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "objectNumber"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_detector_data",
+      "operation": "nsc_detector_data",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0",
+        "jaruiz-nsc@efc4d441796f5c1d5ae3e31759bbadfe3505b109"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Read one detector pixel or aggregate index.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "dataType": {
+            "default": 1,
+            "description": "1 incoherent flux, 2 coherent power, 3 coherent phase",
+            "type": "integer"
+          },
+          "objectNumber": {
+            "description": "Detector object number",
+            "type": "integer"
+          },
+          "pixel": {
+            "description": "Pixel index; negative values may select totals",
+            "type": "integer"
+          },
+          "quantity": {
+            "description": "Optional exact detector quantity",
+            "enum": [
+              "incoherentFlux",
+              "coherentReal",
+              "coherentImaginary",
+              "coherentAmplitude",
+              "coherentPower",
+              "coherentPhaseDegrees"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "objectNumber",
+          "pixel"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_detector_pixel",
+      "operation": "nsc_detector_pixel",
+      "provenance": [
+        "jaruiz-nsc@efc4d441796f5c1d5ae3e31759bbadfe3505b109"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Run bounded Detector Viewer extraction for scalar or RGB data.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch3-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "dataType": {
+            "default": "IncoherentIrradiance",
+            "description": "Detector Viewer data type",
+            "type": "string"
+          },
+          "filter": {
+            "description": "Optional NSC filter expression",
+            "type": "string"
+          },
+          "maxCells": {
+            "default": 4096,
+            "description": "Maximum returned cells",
+            "type": "integer"
+          },
+          "objectNumber": {
+            "description": "Detector object number",
+            "type": "integer"
+          },
+          "scale": {
+            "default": "Linear",
+            "description": "Detector Viewer scale",
+            "type": "string"
+          },
+          "showAs": {
+            "default": "FalseColor",
+            "description": "Detector Viewer display mode",
+            "type": "string"
+          },
+          "smoothing": {
+            "default": 0,
+            "description": "Smoothing level",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "objectNumber"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_detector_viewer",
+      "operation": "nsc_detector_viewer",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Get a non-sequential object and its common/type-specific data.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "objectNumber": {
+            "description": "One-based object number",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "objectNumber"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_get_object",
+      "operation": "nsc_get_object",
+      "provenance": [
+        "jaruiz-nsc@efc4d441796f5c1d5ae3e31759bbadfe3505b109"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Get a type-specific NSC object parameter.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "objectNumber": {
+            "description": "One-based object number",
+            "type": "integer"
+          },
+          "parameter": {
+            "description": "One-based parameter column",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "objectNumber",
+          "parameter"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_get_object_parameter",
+      "operation": "nsc_get_object_parameter",
+      "provenance": [
+        "jaruiz-nsc@efc4d441796f5c1d5ae3e31759bbadfe3505b109"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Get typed spectrum settings for an NSC source object.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch3-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "objectNumber": {
+            "description": "One-based source object number",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "objectNumber"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_get_source_spectrum",
+      "operation": "nsc_get_source_spectrum",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Insert a non-sequential object.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "objectNumber": {
+            "description": "One-based insertion row",
+            "type": "integer"
+          },
+          "objectType": {
+            "description": "Optional Zemax object type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "objectNumber"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_insert_object",
+      "operation": "nsc_insert_object",
+      "provenance": [
+        "jaruiz-nsc@efc4d441796f5c1d5ae3e31759bbadfe3505b109"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Load detector data from a type-compatible detector data file.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch3-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "appendData": {
+            "default": false,
+            "description": "Append rather than replace",
+            "type": "boolean"
+          },
+          "filePath": {
+            "description": "Existing detector data file",
+            "type": "string"
+          },
+          "objectNumber": {
+            "description": "Detector object number",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "objectNumber",
+          "filePath"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_load_detector",
+      "operation": "nsc_load_detector",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Read bounded full Detector Polar data.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch3-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "maxValues": {
+            "default": 4096,
+            "description": "Maximum values returned",
+            "type": "integer"
+          },
+          "objectNumber": {
+            "description": "Detector Polar object number",
+            "type": "integer"
+          },
+          "quantity": {
+            "description": "Polar detector quantity",
+            "type": "string"
+          }
+        },
+        "required": [
+          "objectNumber",
+          "quantity"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_polar_detector_data",
+      "operation": "nsc_polar_detector_data",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Read one Detector Polar pixel or aggregate value.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch3-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "objectNumber": {
+            "description": "Detector Polar object number",
+            "type": "integer"
+          },
+          "pixel": {
+            "description": "Pixel or documented aggregate index",
+            "type": "integer"
+          },
+          "quantity": {
+            "description": "Polar detector quantity",
+            "type": "string"
+          }
+        },
+        "required": [
+          "objectNumber",
+          "pixel",
+          "quantity"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_polar_detector_pixel",
+      "operation": "nsc_polar_detector_pixel",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Run a non-sequential ray trace.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "clearDetectors": {
+            "default": true,
+            "description": "Clear all detectors first",
+            "type": "boolean"
+          },
+          "ignoreErrors": {
+            "default": true,
+            "description": "Ignore ray errors",
+            "type": "boolean"
+          },
+          "rays": {
+            "default": 100000,
+            "description": "Compatibility ray count hint",
+            "type": "integer"
+          },
+          "saveZrd": {
+            "default": false,
+            "description": "Save ray database",
+            "type": "boolean"
+          },
+          "scatter": {
+            "default": false,
+            "description": "Scatter rays",
+            "type": "boolean"
+          },
+          "split": {
+            "default": true,
+            "description": "Split rays",
+            "type": "boolean"
+          },
+          "usePolarization": {
+            "default": false,
+            "description": "Trace polarization",
+            "type": "boolean"
+          },
+          "zrdFile": {
+            "description": "Optional lens-directory ZRD filename",
+            "type": "string"
+          },
+          "zrdFormat": {
+            "default": "CompressedFullData",
+            "description": "ZRD format",
+            "enum": [
+              "UncompressedFullData",
+              "CompressedBasicData",
+              "CompressedFullData"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_ray_trace",
+      "operation": "nsc_ray_trace",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0",
+        "jaruiz-nsc@efc4d441796f5c1d5ae3e31759bbadfe3505b109"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Remove a non-sequential object.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "objectNumber": {
+            "description": "One-based object number",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "objectNumber"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_remove_object",
+      "operation": "nsc_remove_object",
+      "provenance": [
+        "jaruiz-nsc@efc4d441796f5c1d5ae3e31759bbadfe3505b109"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Save detector data to a type-compatible detector data file.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch3-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "filePath": {
+            "description": "Destination detector data file",
+            "type": "string"
+          },
+          "objectNumber": {
+            "description": "Detector object number",
+            "type": "integer"
+          },
+          "overwrite": {
+            "default": false,
+            "description": "Overwrite existing file",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "objectNumber",
+          "filePath"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_save_detector",
+      "operation": "nsc_save_detector",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Set common placement, material, comment, and reference properties of an NSC object.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "comment": {
+            "description": "Comment",
+            "type": "string"
+          },
+          "material": {
+            "description": "Material",
+            "type": "string"
+          },
+          "objectNumber": {
+            "description": "One-based object number",
+            "type": "integer"
+          },
+          "objectType": {
+            "description": "Object type",
+            "type": "string"
+          },
+          "refObject": {
+            "description": "Reference object",
+            "type": "integer"
+          },
+          "tiltAboutX": {
+            "description": "Tilt X",
+            "type": "number"
+          },
+          "tiltAboutY": {
+            "description": "Tilt Y",
+            "type": "number"
+          },
+          "tiltAboutZ": {
+            "description": "Tilt Z",
+            "type": "number"
+          },
+          "xPosition": {
+            "description": "X position",
+            "type": "number"
+          },
+          "yPosition": {
+            "description": "Y position",
+            "type": "number"
+          },
+          "zPosition": {
+            "description": "Z position",
+            "type": "number"
+          }
+        },
+        "required": [
+          "objectNumber"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_set_object",
+      "operation": "nsc_set_object",
+      "provenance": [
+        "jaruiz-nsc@efc4d441796f5c1d5ae3e31759bbadfe3505b109"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Set a type-specific NSC object parameter.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "objectNumber": {
+            "description": "One-based object number",
+            "type": "integer"
+          },
+          "parameter": {
+            "description": "One-based parameter column",
+            "type": "integer"
+          },
+          "value": {
+            "description": "Numeric or string value"
+          }
+        },
+        "required": [
+          "objectNumber",
+          "parameter",
+          "value"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_set_object_parameter",
+      "operation": "nsc_set_object_parameter",
+      "provenance": [
+        "jaruiz-nsc@efc4d441796f5c1d5ae3e31759bbadfe3505b109"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Set typed spectrum settings for an NSC source object.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch3-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "mode": {
+            "description": "Source color mode",
+            "type": "string"
+          },
+          "objectNumber": {
+            "description": "One-based source object number",
+            "type": "integer"
+          },
+          "settings": {
+            "additionalProperties": false,
+            "properties": {},
+            "required": [],
+            "type": "object"
+          }
+        },
+        "required": [
+          "objectNumber",
+          "mode",
+          "settings"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_set_source_spectrum",
+      "operation": "nsc_set_source_spectrum",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "List non-sequential objects and common properties.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_nsc_summary",
+      "operation": "nsc_summary",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0",
+        "jaruiz-nsc@efc4d441796f5c1d5ae3e31759bbadfe3505b109"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate optical-path-difference fans for all fields and wavelengths.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_opd_fan",
+      "operation": "opd_fan",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "lifecycle",
+      "description": "Open a Zemax .zmx or .zos lens file.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-core-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "filePath": {
+            "description": "Absolute Windows lens-file path",
+            "type": "string"
+          },
+          "path": {
+            "description": "Legacy absolute lens-file path",
+            "type": "string"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_open_file",
+      "operation": "open_file",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a",
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "scaffolded",
+      "category": "merit",
+      "description": "Get detailed documentation for an optimization operand.",
+      "evidence": [],
+      "evidenceStatus": "none",
+      "implementationStatus": "scaffolded",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "operandType": {
+            "description": "Operand mnemonic",
+            "type": "string"
+          }
+        },
+        "required": [
+          "operandType"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_operand_help",
+      "operation": "operand_help",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "scaffolded",
+      "category": "merit",
+      "description": "Construct a merit function using Optimization Wizard criteria.",
+      "evidence": [],
+      "evidenceStatus": "none",
+      "implementationStatus": "scaffolded",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "addBoundaryConstraints": {
+            "default": true,
+            "description": "Add thickness constraints",
+            "type": "boolean"
+          },
+          "arms": {
+            "default": 6,
+            "description": "Gaussian arms",
+            "type": "integer"
+          },
+          "clearExisting": {
+            "default": true,
+            "description": "Clear existing operands",
+            "type": "boolean"
+          },
+          "criterion": {
+            "default": "RMSSpotRadius",
+            "description": "RMSSpotRadius, RMSWavefront, PeakToValley, etc.",
+            "type": "string"
+          },
+          "gridSize": {
+            "default": 5,
+            "description": "Rectangular grid size",
+            "type": "integer"
+          },
+          "includeAllFields": {
+            "default": true,
+            "description": "Include every field",
+            "type": "boolean"
+          },
+          "maxCenterThickness": {
+            "description": "Maximum glass center thickness",
+            "type": "number"
+          },
+          "minCenterThickness": {
+            "description": "Minimum glass center thickness",
+            "type": "number"
+          },
+          "minEdgeThickness": {
+            "description": "Minimum air edge thickness",
+            "type": "number"
+          },
+          "pupilIntegration": {
+            "default": "GaussianQuadrature",
+            "description": "GaussianQuadrature or RectangularArray",
+            "type": "string"
+          },
+          "reference": {
+            "default": "Centroid",
+            "description": "Centroid or ChiefRay",
+            "type": "string"
+          },
+          "rings": {
+            "default": 3,
+            "description": "Gaussian rings",
+            "type": "integer"
+          },
+          "wavelength": {
+            "default": 0,
+            "description": "0 for polychromatic",
+            "type": "integer"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_optimization_wizard",
+      "operation": "optimization_wizard",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "optimization",
+      "description": "Run native local optimization.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "algorithm": {
+            "default": "DLS",
+            "description": "DLS or Orthogonal",
+            "type": "string"
+          },
+          "cores": {
+            "default": 0,
+            "description": "Legacy CPU core count",
+            "type": "integer"
+          },
+          "cycles": {
+            "default": 0,
+            "description": "0 for automatic",
+            "type": "integer"
+          },
+          "method": {
+            "description": "Legacy local, hammer, or global",
+            "type": "string"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_optimize",
+      "operation": "optimize",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a",
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "advanced-analysis",
+      "description": "Run Physical Optics Propagation (POP).",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "beamParameter1": {
+            "description": "Beam parameter 1",
+            "type": "number"
+          },
+          "beamParameter2": {
+            "description": "Beam parameter 2",
+            "type": "number"
+          },
+          "beamType": {
+            "default": "GaussianWaist",
+            "description": "Beam type",
+            "type": "string"
+          },
+          "dataType": {
+            "default": "Irradiance",
+            "description": "Irradiance, phase, etc.",
+            "type": "string"
+          },
+          "endSurface": {
+            "description": "End surface",
+            "type": "integer"
+          },
+          "field": {
+            "default": 1,
+            "description": "One-based field",
+            "type": "integer"
+          },
+          "samplingX": {
+            "default": 128,
+            "description": "X sampling",
+            "type": "integer"
+          },
+          "samplingY": {
+            "default": 128,
+            "description": "Y sampling",
+            "type": "integer"
+          },
+          "startSurface": {
+            "description": "Start surface",
+            "type": "integer"
+          },
+          "wavelength": {
+            "default": 1,
+            "description": "One-based wavelength",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "startSurface",
+          "endSurface"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_pop",
+      "operation": "pop",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate entrance-pupil aberration fans.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_pupil_aberration_fan",
+      "operation": "pupil_aberration_fan",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "optimization",
+      "description": "Run Quick Focus to adjust back focal distance.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "criterion": {
+            "default": "SpotSizeRadial",
+            "description": "SpotSizeRadial, SpotSizeXOnly, SpotSizeYOnly, or RMSWavefront",
+            "type": "string"
+          },
+          "useCentroid": {
+            "default": true,
+            "description": "Reference spot size to the centroid",
+            "type": "boolean"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_quick_focus",
+      "operation": "quick_focus",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate transverse ray aberration fans for all fields and wavelengths.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_ray_fan",
+      "operation": "ray_fan",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Trace one normalized sequential ray.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-core-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "hx": {
+            "default": 0,
+            "description": "Normalized field X",
+            "type": "number"
+          },
+          "hy": {
+            "default": 0,
+            "description": "Normalized field Y",
+            "type": "number"
+          },
+          "px": {
+            "default": 0,
+            "description": "Normalized pupil X",
+            "type": "number"
+          },
+          "py": {
+            "default": 0,
+            "description": "Normalized pupil Y",
+            "type": "number"
+          },
+          "surface": {
+            "default": 0,
+            "description": "0 traces to image",
+            "type": "integer"
+          },
+          "wavelength": {
+            "default": 1,
+            "description": "Wavelength number",
+            "type": "integer"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_ray_trace",
+      "operation": "ray_trace",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate relative illumination and effective F-number versus field.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_relative_illumination",
+      "operation": "relative_illumination",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "glass",
+      "description": "Remove a material catalog from the current optical system.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch1-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "catalogName": {
+            "description": "Material catalog name without the .agf extension",
+            "type": "string"
+          }
+        },
+        "required": [
+          "catalogName"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_remove_material_catalog",
+      "operation": "remove_material_catalog",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "merit",
+      "description": "Remove a merit-function operand.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "row": {
+            "description": "One-based row",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "row"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_remove_operand",
+      "operation": "remove_operand",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "sequential",
+      "description": "Remove a sequential surface.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "surfaceNumber": {
+            "description": "Surface number to remove",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "surfaceNumber"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_remove_surface",
+      "operation": "remove_surface",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "lifecycle",
+      "description": "Restart the OpticStudio connection when the current session is unhealthy.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-core-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_restart",
+      "operation": "restart",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate an RMS spot radius for a normalized field point.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-core-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "hx": {
+            "default": 0,
+            "description": "Normalized field X",
+            "type": "number"
+          },
+          "hy": {
+            "default": 0,
+            "description": "Normalized field Y",
+            "type": "number"
+          },
+          "reference": {
+            "default": "centroid",
+            "description": "centroid or chief",
+            "type": "string"
+          },
+          "sampling": {
+            "default": 3,
+            "description": "Rings or grid size",
+            "type": "integer"
+          },
+          "useGrid": {
+            "default": false,
+            "description": "Use rectangular sampling",
+            "type": "boolean"
+          },
+          "wavelength": {
+            "default": 0,
+            "description": "0 for polychromatic",
+            "type": "integer"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_rms_spot",
+      "operation": "rms_spot",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "advanced-analysis",
+      "description": "Run an arbitrary AnalysisIDM by name and extract sample results.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "analysisType": {
+            "description": "ZOSAPI AnalysisIDM member",
+            "type": "string"
+          }
+        },
+        "required": [
+          "analysisType"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_run_analysis",
+      "operation": "run_analysis",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "tolerancing",
+      "description": "Run bounded Monte Carlo tolerancing.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "monteCarloRuns": {
+            "default": 20,
+            "description": "Number of Monte Carlo runs (1-100)",
+            "type": "integer"
+          },
+          "timeoutSeconds": {
+            "default": 30,
+            "description": "Hard timeout in seconds (maximum 300)",
+            "type": "number"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_run_tolerancing",
+      "operation": "run_tolerancing",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "lifecycle",
+      "description": "Save the current lens, optionally using Save As.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-core-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "filePath": {
+            "description": "Optional destination path",
+            "type": "string"
+          },
+          "path": {
+            "description": "Legacy optional destination path",
+            "type": "string"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_save_file",
+      "operation": "save_file",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a",
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "merit",
+      "description": "Save the merit function to a .MF file.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "filePath": {
+            "description": "Absolute .MF file path",
+            "type": "string"
+          }
+        },
+        "required": [
+          "filePath"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_save_merit_function_file",
+      "operation": "save_merit_function_file",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Scale a disposable lens by factor or convert it to another lens unit.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch2-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "firstComponent": {
+            "description": "First component to scale",
+            "type": "integer"
+          },
+          "lastComponent": {
+            "description": "Last component to scale",
+            "type": "integer"
+          },
+          "mode": {
+            "description": "Scaling mode",
+            "enum": [
+              "factor",
+              "units"
+            ],
+            "type": "string"
+          },
+          "scaleFactor": {
+            "description": "Finite positive scale factor",
+            "type": "number"
+          },
+          "scaleToUnit": {
+            "description": "Target lens unit",
+            "enum": [
+              "Millimeters",
+              "Centimeters",
+              "Inches",
+              "Meters"
+            ],
+            "type": "string"
+          },
+          "timeoutSeconds": {
+            "default": 0,
+            "description": "Bounded timeout in seconds",
+            "type": "number"
+          }
+        },
+        "required": [
+          "mode"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_scale_lens",
+      "operation": "scale_lens",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "scaffolded",
+      "category": "merit",
+      "description": "Search operand names and descriptions.",
+      "evidence": [],
+      "evidenceStatus": "none",
+      "implementationStatus": "scaffolded",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "category": {
+            "description": "Optional category filter",
+            "type": "string"
+          },
+          "maxResults": {
+            "default": 20,
+            "description": "Maximum results",
+            "type": "integer"
+          },
+          "query": {
+            "description": "Search query",
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_search_operands",
+      "operation": "search_operands",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate third-order Seidel and chromatic aberration coefficients.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "wavelength": {
+            "default": 0,
+            "description": "0 for primary",
+            "type": "integer"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_seidel_coefficients",
+      "operation": "seidel_coefficients",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Enable or disable sequential afocal mode.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "afocalMode": {
+            "description": "Whether afocal mode is enabled",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "afocalMode"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_afocal_mode",
+      "operation": "set_afocal_mode",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Set the system aperture type and value.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "apertureType": {
+            "default": "EPD",
+            "description": "EPD, FNumber, ObjectNA, FloatByStop, or Zemax enum name",
+            "type": "string"
+          },
+          "value": {
+            "description": "Aperture value",
+            "type": "number"
+          }
+        },
+        "required": [
+          "value"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_aperture",
+      "operation": "set_aperture",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a",
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Set aperture apodization type and factor.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "apodizationType": {
+            "description": "Apodization type",
+            "type": "string"
+          },
+          "factor": {
+            "description": "Apodization factor",
+            "type": "number"
+          }
+        },
+        "required": [
+          "apodizationType",
+          "factor"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_apodization",
+      "operation": "set_apodization",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "sequential",
+      "description": "Convert to Even Asphere and set conic and alpha coefficients.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "alpha1": {
+            "description": "Even-asphere alpha1 coefficient",
+            "type": "number"
+          },
+          "alpha1Variable": {
+            "description": "Make alpha1 variable",
+            "type": "boolean"
+          },
+          "alpha2": {
+            "description": "Even-asphere alpha2 coefficient",
+            "type": "number"
+          },
+          "alpha2Variable": {
+            "description": "Make alpha2 variable",
+            "type": "boolean"
+          },
+          "alpha3": {
+            "description": "Even-asphere alpha3 coefficient",
+            "type": "number"
+          },
+          "alpha3Variable": {
+            "description": "Make alpha3 variable",
+            "type": "boolean"
+          },
+          "alpha4": {
+            "description": "Even-asphere alpha4 coefficient",
+            "type": "number"
+          },
+          "alpha4Variable": {
+            "description": "Make alpha4 variable",
+            "type": "boolean"
+          },
+          "alpha5": {
+            "description": "Even-asphere alpha5 coefficient",
+            "type": "number"
+          },
+          "alpha5Variable": {
+            "description": "Make alpha5 variable",
+            "type": "boolean"
+          },
+          "alpha6": {
+            "description": "Even-asphere alpha6 coefficient",
+            "type": "number"
+          },
+          "alpha6Variable": {
+            "description": "Make alpha6 variable",
+            "type": "boolean"
+          },
+          "alpha7": {
+            "description": "Even-asphere alpha7 coefficient",
+            "type": "number"
+          },
+          "alpha7Variable": {
+            "description": "Make alpha7 variable",
+            "type": "boolean"
+          },
+          "alpha8": {
+            "description": "Even-asphere alpha8 coefficient",
+            "type": "number"
+          },
+          "alpha8Variable": {
+            "description": "Make alpha8 variable",
+            "type": "boolean"
+          },
+          "conic": {
+            "description": "Conic constant",
+            "type": "number"
+          },
+          "conicVariable": {
+            "description": "Make conic variable",
+            "type": "boolean"
+          },
+          "surfaceNumber": {
+            "description": "Surface number",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "surfaceNumber"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_aspheric_surface",
+      "operation": "set_aspheric_surface",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Set the clear semi-diameter margin.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "margin": {
+            "description": "Margin value",
+            "type": "number"
+          }
+        },
+        "required": [
+          "margin"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_clear_semi_diameter_margin",
+      "operation": "set_clear_semi_diameter_margin",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "configuration",
+      "description": "Set a value or pickup solve for one configuration operand cell.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "configurationNumber": {
+            "description": "One-based configuration",
+            "type": "integer"
+          },
+          "offset": {
+            "default": 0,
+            "description": "Pickup offset",
+            "type": "number"
+          },
+          "operandRow": {
+            "description": "One-based operand row",
+            "type": "integer"
+          },
+          "pickupConfig": {
+            "description": "Pickup configuration",
+            "type": "integer"
+          },
+          "scaleFactor": {
+            "default": 1,
+            "description": "Pickup scale",
+            "type": "number"
+          },
+          "value": {
+            "description": "Direct value",
+            "type": "number"
+          }
+        },
+        "required": [
+          "operandRow",
+          "configurationNumber"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_configuration_operand_value",
+      "operation": "set_configuration_operand_value",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "configuration",
+      "description": "Set the active configuration.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "configurationNumber": {
+            "description": "One-based configuration",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "configurationNumber"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_current_configuration",
+      "operation": "set_current_configuration",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "xdat",
+      "description": "Set one or more surface Extra Data (XDAT) values.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "surfaceNumber": {
+            "description": "Surface number",
+            "type": "integer"
+          },
+          "values": {
+            "description": "XDAT entries",
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "parameter": {
+                  "description": "Parameter number",
+                  "type": "integer"
+                },
+                "value": {
+                  "description": "Value",
+                  "type": "number"
+                }
+              },
+              "required": [
+                "parameter",
+                "value"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "surfaceNumber",
+          "values"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_extra_data",
+      "operation": "set_extra_data",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Set all field points and the field coordinate type.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "fieldType": {
+            "default": "Angle",
+            "description": "Angle, ObjectHeight, ParaxialImageHeight, or RealImageHeight",
+            "type": "string"
+          },
+          "fields": {
+            "description": "Field definitions",
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "weight": {
+                  "default": 1.0,
+                  "description": "Relative weight",
+                  "type": "number"
+                },
+                "x": {
+                  "description": "Field X coordinate",
+                  "type": "number"
+                },
+                "y": {
+                  "description": "Field Y coordinate",
+                  "type": "number"
+                }
+              },
+              "required": [
+                "x",
+                "y"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "points": {
+            "description": "Legacy [x,y] coordinate pairs",
+            "items": {
+              "description": "Coordinate pair",
+              "items": {
+                "type": "number"
+              },
+              "type": "array"
+            },
+            "type": "array"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_fields",
+      "operation": "set_fields",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a",
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Set MTF spatial-frequency units.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "mtfUnits": {
+            "description": "MTF units",
+            "type": "string"
+          }
+        },
+        "required": [
+          "mtfUnits"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_mtf_units",
+      "operation": "set_mtf_units",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "configuration",
+      "description": "Set the number of configurations.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "numberOfConfigurations": {
+            "description": "Desired count",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "numberOfConfigurations"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_number_of_configurations",
+      "operation": "set_number_of_configurations",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Set the number of field rows.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "numberOfFields": {
+            "description": "Desired field count",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "numberOfFields"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_number_of_fields",
+      "operation": "set_number_of_fields",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Set the number of wavelength rows.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "numberOfWavelengths": {
+            "description": "Desired wavelength count",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "numberOfWavelengths"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_number_of_wavelengths",
+      "operation": "set_number_of_wavelengths",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Update the current optical system's default input polarization settings.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch1-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "convertThinFilmPhaseToRayEquivalent": {
+            "description": "Convert thin-film phase to its ray-equivalent value",
+            "type": "boolean"
+          },
+          "jx": {
+            "description": "X-component Jones amplitude",
+            "type": "number"
+          },
+          "jy": {
+            "description": "Y-component Jones amplitude",
+            "type": "number"
+          },
+          "method": {
+            "description": "Polarization-axis reference method",
+            "enum": [
+              "XAxisMethod",
+              "YAxisMethod",
+              "ZAxisMethod"
+            ],
+            "type": "string"
+          },
+          "unpolarized": {
+            "description": "Treat rays as unpolarized",
+            "type": "boolean"
+          },
+          "xPhase": {
+            "description": "X-component phase",
+            "type": "number"
+          },
+          "yPhase": {
+            "description": "Y-component phase",
+            "type": "number"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_polarization",
+      "operation": "set_polarization",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Set ray aiming to Off, Paraxial, or Real.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "rayAiming": {
+            "description": "Ray-aiming mode",
+            "enum": [
+              "Off",
+              "Paraxial",
+              "Real"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "rayAiming"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_ray_aiming",
+      "operation": "set_ray_aiming",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "sequential",
+      "description": "Modify common properties and variable states of a sequential surface.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-core-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "comment": {
+            "description": "Comment",
+            "type": "string"
+          },
+          "conic": {
+            "description": "Conic constant",
+            "type": "number"
+          },
+          "conicVariable": {
+            "description": "Make conic variable",
+            "type": "boolean"
+          },
+          "isStop": {
+            "description": "Set as stop",
+            "type": "boolean"
+          },
+          "material": {
+            "description": "Glass name",
+            "type": "string"
+          },
+          "radius": {
+            "description": "Radius of curvature",
+            "type": "number"
+          },
+          "radiusVariable": {
+            "description": "Make radius variable",
+            "type": "boolean"
+          },
+          "semiDiameter": {
+            "description": "Semi-diameter",
+            "type": "number"
+          },
+          "surfaceNumber": {
+            "description": "Surface to modify",
+            "type": "integer"
+          },
+          "thickness": {
+            "description": "Thickness to next surface",
+            "type": "number"
+          },
+          "thicknessMax": {
+            "description": "Hard upper thickness bound",
+            "type": "number"
+          },
+          "thicknessMin": {
+            "description": "Hard lower thickness bound",
+            "type": "number"
+          },
+          "thicknessVariable": {
+            "description": "Make thickness variable",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "surfaceNumber"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_surface",
+      "operation": "set_surface",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "sequential",
+      "description": "Set a type-specific surface parameter.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "parameter": {
+            "description": "One-based parameter number",
+            "type": "integer"
+          },
+          "surfaceNumber": {
+            "description": "Surface number",
+            "type": "integer"
+          },
+          "value": {
+            "description": "Parameter value",
+            "type": "number"
+          }
+        },
+        "required": [
+          "surfaceNumber",
+          "parameter",
+          "value"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_surface_parameter",
+      "operation": "set_surface_parameter",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "sequential",
+      "description": "Set the solve type for a surface property.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "catalog": {
+            "description": "Glass substitution catalog",
+            "type": "string"
+          },
+          "fNumber": {
+            "description": "F-number solve value",
+            "type": "number"
+          },
+          "height": {
+            "description": "Ray height or angle",
+            "type": "number"
+          },
+          "indexOffset": {
+            "description": "Material index offset",
+            "type": "number"
+          },
+          "materialName": {
+            "description": "Material name",
+            "type": "string"
+          },
+          "offset": {
+            "default": 0,
+            "description": "Pickup offset",
+            "type": "number"
+          },
+          "pickupColumn": {
+            "description": "Pickup source column",
+            "type": "integer"
+          },
+          "pickupSurface": {
+            "description": "Pickup source surface",
+            "type": "integer"
+          },
+          "position": {
+            "description": "Position solve distance",
+            "type": "number"
+          },
+          "property": {
+            "description": "radius, thickness, conic, semiDiameter, material, or param1-param8",
+            "type": "string"
+          },
+          "pupilZone": {
+            "description": "Pupil zone",
+            "type": "number"
+          },
+          "radialHeight": {
+            "description": "Edge radial height",
+            "type": "number"
+          },
+          "referenceSurface": {
+            "description": "Reference surface",
+            "type": "integer"
+          },
+          "scaleFactor": {
+            "default": 1,
+            "description": "Pickup scale",
+            "type": "number"
+          },
+          "solveType": {
+            "description": "Fixed, Variable, Pickup, ray-height/angle, edge-thickness, position, FNumber, or material solve",
+            "type": "string"
+          },
+          "surfaceNumber": {
+            "description": "Surface number",
+            "type": "integer"
+          },
+          "thickness": {
+            "description": "Edge thickness",
+            "type": "number"
+          }
+        },
+        "required": [
+          "surfaceNumber",
+          "property",
+          "solveType"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_surface_solve",
+      "operation": "set_surface_solve",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "sequential",
+      "description": "Change a surface to a named Zemax surface type.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "surfaceNumber": {
+            "description": "Surface number",
+            "type": "integer"
+          },
+          "surfaceType": {
+            "description": "Zemax surface type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "surfaceNumber",
+          "surfaceType"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_surface_type",
+      "operation": "set_surface_type",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Set the current optical system's lens units.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch1-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "lensUnits": {
+            "description": "Lens coordinate and prescription units",
+            "enum": [
+              "Millimeters",
+              "Centimeters",
+              "Inches",
+              "Meters"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "lensUnits"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_system_units",
+      "operation": "set_system_units",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Update the current optical system's title, notes, and author.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch1-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "author": {
+            "description": "Optical-system author; an empty string clears it",
+            "type": "string"
+          },
+          "notes": {
+            "description": "Optical-system notes; an empty string clears them",
+            "type": "string"
+          },
+          "title": {
+            "description": "Optical-system title; an empty string clears it",
+            "type": "string"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_title_notes",
+      "operation": "set_title_notes",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "sequential",
+      "description": "Legacy wrapper to make a surface cell variable.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "cell": {
+            "default": "thickness",
+            "description": "Cell",
+            "enum": [
+              "radius",
+              "thickness",
+              "conic"
+            ],
+            "type": "string"
+          },
+          "surface": {
+            "description": "Surface number",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "surface"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_variable",
+      "operation": "set_variable",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "scaffolded",
+      "category": "optimization",
+      "description": "Set hard min/max constraints on optimization variables.",
+      "evidence": [],
+      "evidenceStatus": "none",
+      "implementationStatus": "scaffolded",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "constraints": {
+            "description": "Variable constraints",
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "constraint": {
+                  "description": "Unconstrained, MinAndMax, MinOnly, or MaxOnly",
+                  "type": "string"
+                },
+                "max": {
+                  "description": "Maximum",
+                  "type": "number"
+                },
+                "min": {
+                  "description": "Minimum",
+                  "type": "number"
+                },
+                "variableNumber": {
+                  "description": "Variable number",
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "variableNumber",
+                "constraint"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "constraints"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_variable_constraints",
+      "operation": "set_variable_constraints",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ],
+      "unsupportedReason": "OpticStudio 2025 R1.01 exposes variable solves but no public ZOS-API method for per-variable hard bounds. Native optimization must use merit-function boundary operands instead, so this mutating compatibility tool is not emulated."
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "settings",
+      "description": "Replace wavelength definitions and select the primary wavelength.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "primary": {
+            "default": 1,
+            "description": "Legacy one-based primary wavelength",
+            "type": "integer"
+          },
+          "primaryWavelength": {
+            "default": 1,
+            "description": "One-based primary wavelength",
+            "type": "integer"
+          },
+          "wavelengths": {
+            "description": "Wavelength definitions",
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "wavelength": {
+                  "description": "Wavelength in micrometers",
+                  "type": "number"
+                },
+                "weight": {
+                  "default": 1.0,
+                  "description": "Relative weight",
+                  "type": "number"
+                }
+              },
+              "required": [
+                "wavelength"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "wavelengthsUm": {
+            "description": "Legacy list of wavelengths in micrometers",
+            "items": {
+              "type": "number"
+            },
+            "type": "array"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_set_wavelengths",
+      "operation": "set_wavelengths",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a",
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Calculate spot-size analysis for one field.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "field": {
+            "default": 1,
+            "description": "One-based field",
+            "type": "integer"
+          },
+          "rings": {
+            "default": 3,
+            "description": "Gaussian rings",
+            "type": "integer"
+          },
+          "wavelength": {
+            "default": 0,
+            "description": "0 for polychromatic",
+            "type": "integer"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_spot_diagram",
+      "operation": "spot_diagram",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "analysis",
+      "description": "Legacy RMS spot radius analysis for every field.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_spot_rms",
+      "operation": "spot_rms",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "lifecycle",
+      "description": "Return connection, ownership, license, and current-system status.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-core-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_status",
+      "operation": "status",
+      "provenance": [
+        "zym@8c9e3499f8d35db9a7383f7d2d0089ff92980a0a"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "tolerancing",
+      "description": "Return tolerance operands and bounds.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_tde_summary",
+      "operation": "tde_summary",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "tolerancing",
+      "description": "Populate default sequential tolerances.",
+      "evidence": [],
+      "evidenceStatus": "offline-only",
+      "implementationStatus": "offline-implemented",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_tolerance_wizard",
+      "operation": "tolerance_wizard",
+      "provenance": [
+        "webworn@3797d97492723f385988d47f8b183479bc172dd0"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Read a bounded nested ray and segment sample from a ZRD.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch4-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "filePath": {
+            "description": "Existing absolute .ZRD file path",
+            "type": "string"
+          },
+          "filter": {
+            "description": "Optional OpticStudio NSC filter expression",
+            "type": "string"
+          },
+          "maxRays": {
+            "default": 100,
+            "description": "Maximum returned rays",
+            "type": "integer"
+          },
+          "maxSegments": {
+            "default": 4096,
+            "description": "Maximum total returned segments",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "filePath"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_zrd_read",
+      "operation": "zrd_read",
+      "provenance": [
+        "compatibility-union"
+      ]
+    },
+    {
+      "aliases": [],
+      "capabilityStatus": "production",
+      "category": "non-sequential",
+      "description": "Stream an existing ZRD and return bounded aggregate metadata.",
+      "evidence": [
+        "opticstudio-2025-r1.01-stdio-batch4-2026-09-12"
+      ],
+      "evidenceStatus": "live-verified",
+      "implementationStatus": "live-verified",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "filePath": {
+            "description": "Existing absolute .ZRD file path",
+            "type": "string"
+          },
+          "filter": {
+            "description": "Optional OpticStudio NSC filter expression",
+            "type": "string"
+          },
+          "maxRaysToScan": {
+            "default": 100000,
+            "description": "Maximum rays to scan",
+            "type": "integer"
+          },
+          "maxSegmentsToScan": {
+            "default": 1000000,
+            "description": "Maximum segments to scan",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "filePath"
+        ],
+        "type": "object"
+      },
+      "metadata": {},
+      "name": "zemax_zrd_summary",
+      "operation": "zrd_summary",
+      "provenance": [
+        "compatibility-union"
+      ]
+    }
+  ],
+  "version": "0.1.0"
+}

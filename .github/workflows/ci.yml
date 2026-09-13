@@ -1,0 +1,77 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline:
+    name: Windows Python ${{ matrix.python-version }} offline
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+
+    env:
+      PYTHONUTF8: "1"
+      PYTHONUNBUFFERED: "1"
+      ZEMAX_MCP_CONNECTION_MODE: standalone
+      ZEMAX_MCP_LIVE: "0"
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Install uv and Python
+        uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.8.22"
+          python-version: ${{ matrix.python-version }}
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+
+      - name: Install locked dependencies
+        run: uv sync --frozen --all-extras --dev
+
+      - name: Check formatting
+        run: uv run ruff format --check .
+
+      - name: Lint
+        run: uv run ruff check .
+
+      - name: Type check
+        run: uv run mypy src tests
+
+      - name: Run offline tests
+        run: uv run pytest -m "not live_zemax" --cov=zemax_mcp --cov-report=term-missing --cov-report=xml
+
+      - name: Check capability report
+        run: uv run zemax-mcp report --check
+
+      - name: Build distributions
+        run: uv build
+
+      - name: Verify distribution contents
+        run: uv run python scripts/verify_dist_contents.py dist
+
+      - name: Upload coverage report
+        if: matrix.python-version == '3.12'
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-windows-py312
+          path: coverage.xml
+          if-no-files-found: error
+
+      - name: Upload package artifacts
+        if: matrix.python-version == '3.12'
+        uses: actions/upload-artifact@v4
+        with:
+          name: distributions-windows-py312
+          path: dist/*
+          if-no-files-found: error
