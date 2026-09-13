@@ -15,7 +15,6 @@ A Windows-only [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) 
 - [Run the server](#run-the-server)
 - [Configure MCP clients](#configure-mcp-clients)
 - [Runtime configuration](#runtime-configuration)
-- [What to upload to GitHub](#what-to-upload-to-github)
 - [Testing and development](#testing-and-development)
 - [Security and proprietary files](#security-and-proprietary-files)
 
@@ -386,70 +385,6 @@ For extension mode, enable Interactive Extension in OpticStudio before the MCP s
 ```
 
 Instance IDs are installation/session specific. `0` selects the first or default available instance.
-
-## What to upload to GitHub
-
-Upload the maintainable source repository, not only `dist/`.
-
-### Include
-
-```text
-.github/
-docs/
-examples/
-scripts/
-src/
-tests/
-.gitattributes
-.gitignore
-.python-version
-CHANGELOG.md
-LICENSE
-README.md
-SECURITY.md
-THIRD_PARTY_NOTICES.md
-live-test-report.md       # curated summary only
-tool-coverage.json        # checked-in source-derived manifest
-pyproject.toml
-uv.lock
-```
-
-Empty directories do not need to be uploaded because Git does not track them.
-
-### Do not include
-
-```text
-.venv/
-dist/
-build/
-**/__pycache__/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.coverage
-coverage.xml
-htmlcov/
-live-output/
-coverage-report.md
-offline-test-report.md
-.env or other local secrets
-local client configuration with absolute user paths
-```
-
-Also exclude all proprietary or customer-owned OpticStudio assets, including:
-
-```text
-ZOSAPI.dll
-ZOSAPI_Interfaces.dll
-ZOSAPI_NetHelper.dll
-*.zmx / *.zos
-*.zda / *.zrd
-*.agf / *.mf / *.ddp
-license or activation files
-customer optical designs and private catalogs
-```
-
-The repository `.gitignore` and Hatch source-distribution allowlist provide defense in depth, but always review `git status` and built archive contents before publishing.
 
 ## Architecture
 
