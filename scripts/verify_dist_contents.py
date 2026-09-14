@@ -61,7 +61,6 @@ ALLOWED_SDIST_ROOTS = {
     "docs",
     "examples",
     "live-test-report.md",
-    "porting-notes.md",
     "pyproject.toml",
     "scripts",
     "src",

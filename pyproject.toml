@@ -70,7 +70,6 @@ include = [
   "/SECURITY.md",
   "/THIRD_PARTY_NOTICES.md",
   "/live-test-report.md",
-  "/porting-notes.md",
   "/pyproject.toml",
   "/tool-coverage.json",
   "/uv.lock",
