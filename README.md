@@ -107,10 +107,18 @@ The GitHub repository is:
 
 ### Option 1: Clone with Git
 
+Install Git and `uv` first, then verify that both commands are available:
+
 ```powershell
+winget install --id Git.Git --exact --source winget
+winget install --id astral-sh.uv --exact --source winget
+git --version
+uv --version
 git clone https://github.com/YonggangG/Zemax_MCP_Server.git
 cd Zemax_MCP_Server
 ```
+
+If either command is still unavailable after installation, close and reopen PowerShell before continuing.
 
 To update an existing clone later:
 
@@ -245,35 +253,29 @@ Equivalent JSON-shaped configuration:
 
 ```json
 {
-  "name": "zemax",
-  "type": "stdio",
-  "command": "uv",
-  "args": [
-    "--directory",
-    "C:\\path\\to\\Zemax_MCP_Server",
-    "run",
-    "zemax-mcp",
-    "serve"
-  ],
-  "env": {
-    "ZEMAX_MCP_CONNECTION_MODE": "standalone"
+  "mcpServers": {
+    "zemax": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\path\\to\\Zemax_MCP_Server",
+        "run",
+        "zemax-mcp",
+        "serve"
+      ],
+      "env": {
+        "ZEMAX_MCP_CONNECTION_MODE": "standalone",
+        "ZEMAX_MCP_INSTALL_DIR": "C:\\Program Files\\Ansys Zemax OpticStudio 2025 R1.01",
+        "ZEMAX_MCP_ZOSAPI_PATH": "C:\\Users\\yonggang\\Documents\\Zemax\\ZOS-API\\Libraries\\ZOSAPI_NetHelper.dll"
+      }
+    }
   }
 }
 ```
 
-If Cherry Studio cannot resolve `uv`, use the checkout executable instead:
+If Cherry Studio cannot resolve `uv`, set `command` to the absolute `C:\\path\\to\\Zemax_MCP_Server\\.venv\\Scripts\\zemax-mcp.exe` path and set `args` to `["serve"]`.
 
-```json
-{
-  "name": "zemax",
-  "type": "stdio",
-  "command": "C:\\path\\to\\Zemax_MCP_Server\\.venv\\Scripts\\zemax-mcp.exe",
-  "args": ["serve"],
-  "env": {
-    "ZEMAX_MCP_CONNECTION_MODE": "standalone"
-  }
-}
-```
+> **Verify the paths before saving:** `ZEMAX_MCP_INSTALL_DIR` and `ZEMAX_MCP_ZOSAPI_PATH` are examples for one workstation. Confirm the OpticStudio version, Windows user name, and DLL location on your computer, then replace these values as needed.
 
 #### Cherry Studio settings example
 
@@ -306,12 +308,16 @@ Add the server under `mcpServers`:
         "serve"
       ],
       "env": {
-        "ZEMAX_MCP_CONNECTION_MODE": "standalone"
+        "ZEMAX_MCP_CONNECTION_MODE": "standalone",
+        "ZEMAX_MCP_INSTALL_DIR": "C:\\Program Files\\Ansys Zemax OpticStudio 2025 R1.01",
+        "ZEMAX_MCP_ZOSAPI_PATH": "C:\\Users\\yonggang\\Documents\\Zemax\\ZOS-API\\Libraries\\ZOSAPI_NetHelper.dll"
       }
     }
   }
 }
 ```
+
+> **Verify the paths before saving:** `ZEMAX_MCP_INSTALL_DIR` and `ZEMAX_MCP_ZOSAPI_PATH` are examples for one workstation. Confirm the OpticStudio version, Windows user name, and DLL location on your computer, then replace these values as needed.
 
 Alternatively, set `command` to the absolute `.venv\Scripts\zemax-mcp.exe` path and set `args` to `["serve"]`.
 
